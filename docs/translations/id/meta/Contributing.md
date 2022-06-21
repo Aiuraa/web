@@ -3,23 +3,23 @@ title: Berkontribusi
 description: Cara berkontribusi untuk wiki SA-MP dan dokumentasi open.mp.
 ---
 
-Sumber dokumentasi ini terbuka bagi siapa saja untuk memberi kontribusi perubahan! Yang Anda butuhkan adalah sebuah akun [GitHub](https://github.com) dan waktu luang. Anda tidak diharuskan mengerti Git, Anda dapat melakukan semuanya dari _Web UI_ (antarmuka web).
+Sumber dokumentasi ini terbuka bagi siapa saja untuk memberi kontribusi perubahan! Yang kamu butuhkan adalah sebuah akun [GitHub](https://github.com) dan waktu luang. kamu tidak diharuskan mengerti Git, kamu dapat melakukan semuanya dari _Web UI_ (antarmuka web).
 
-Jika Anda ingin membantu mempertahankan wiki ini dalam Bahasa Indonesia, buka sebuah _pull request_ (PR) terhadap file [`CODEOWNERS`](https://github.com/openmultiplayer/web/blob/master/CODEOWNERS) dan tambahkan direktori untuk bahasa Anda dengan _username_ GitHub Anda.
+Jika kamu ingin membantu mempertahankan wiki ini dalam Bahasa Indonesia, buka sebuah _pull request_ (PR) terhadap file [`CODEOWNERS`](https://github.com/openmultiplayer/web/blob/master/CODEOWNERS) dan tambahkan direktori untuk bahasa kamu dengan _username_ GitHub kamu.
 
 ## Menyunting Konten
 
-Di setiap halaman, ada sebuah tombol yang mengarahkan Anda ke halaman GitHub untuk penyuntingan:
+Di setiap halaman, ada sebuah tombol yang mengarahkan kamu ke halaman GitHub untuk penyuntingan:
 
 ![Link 'Sunting halaman ini' ada di setiap halaman Wiki](images/contributing/edit-this-page.png)
 
-Sebagai contoh, klik di [SetVehicleAngularVelocity](../scripting/functions/SetVehicleAngularVelocity) akan mengarahkan Anda ke [halaman ini](https://github.com/openmultiplayer/web/edit/master/docs/scripting/functions/SetVehicleAngularVelocity.md) yang di mana akan memunculkan sebuah _text editor_ untuk membuat perubahan ke file tersebut (asumsikan Anda sudah _login_ ke GitHub).
+Sebagai contoh, klik di [SetVehicleAngularVelocity](../scripting/functions/SetVehicleAngularVelocity) akan mengarahkan kamu ke [halaman ini](https://github.com/openmultiplayer/web/edit/master/docs/scripting/functions/SetVehicleAngularVelocity.md) yang di mana akan memunculkan sebuah _text editor_ untuk membuat perubahan ke file tersebut (asumsikan kamu sudah _login_ ke GitHub).
 
-Lakukan penyuntingan Anda and kirimkan sebuah "Pull Request" yang artinya pengelola Wiki ini dan anggota komunitas lainnya dapat mengulas (me-_review_) perubahan Anda, diskusikas apakah perlu ada perubahan dan kemudian gabungkan.
+Lakukan penyuntingan kamu and kirimkan sebuah "Pull Request" yang artinya pengelola Wiki ini dan anggota komunitas lainnya dapat mengulas (me-_review_) perubahan kamu, diskusikas apakah perlu ada perubahan dan kemudian gabungkan.
 
 ## Menambah Konten Baru
 
-Menambah konten baru sedikit lebih rumit. Anda dapat melakukannya dengan dua cara:
+Menambah konten baru sedikit lebih rumit. kamu dapat melakukannya dengan dua cara:
 
 ### Antarmuka GitHub
 
@@ -27,7 +27,7 @@ Ketika menjelajahi sebuah direktori di GitHub, ada sebuah tombol Add file terlet
 
 ![Tombol Add file](images/contributing/add-new-file.png)
 
-Anda bisa meng-_upload_ file Markdown yang sudah Anda tulis atau menulisnya langsung ke _text editor_ GitHub.
+kamu bisa meng-_upload_ file Markdown yang sudah kamu tulis atau menulisnya langsung ke _text editor_ GitHub.
 
 _File_ harus memiliki ekstensi `.md` dan mengandung Markdown. Untuk informasi lebih lanjut tentang Markdown silakan lihat [panduan ini](https://guides.github.com/features/mastering-markdown/).
 
@@ -35,20 +35,20 @@ Setelah selesai, tekan "Propose new file" dan sebuah Pull Request akan terbuka u
 
 ### Git
 
-Jika Anda ingin menggunakan Git, yang Anda harus lakukan adalah _clone_ _repository_ Wiki dengan:
+Jika kamu ingin menggunakan Git, yang kamu harus lakukan adalah _clone_ _repository_ Wiki dengan:
 
 ```sh
 git clone https://github.com/openmultiplayer/wiki.git
 ```
 
-Buka dengan editor favorit Anda. Saya merekomendasikan Visual Studio Code karena memiliki peralatan yang bagus untuk menyunting dan _formatting_ _file_ Markdown. Yang Anda lihat, saya sedang menulis ini menggunakan Visual Studio Code!
+Buka dengan editor favorit kamu. Saya merekomendasikan Visual Studio Code karena memiliki peralatan yang bagus untuk menyunting dan _formatting_ _file_ Markdown. Yang kamu lihat, saya sedang menulis ini menggunakan Visual Studio Code!
 
 ![Pratinjau markdown di Visual Studio Code](images/contributing/vscode.png)
 
-Saya merekomendasikan dua ekstension untuk membuat pengalaman Anda menjadi lebih baik:
+Saya merekomendasikan dua ekstension untuk membuat pengalaman kamu menjadi lebih baik:
 
-- [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) oleh David Anson - ini adalah sebuah ekstensi yang memastikan Markdown Anda telah di-_format_ dengan benar. Hal ini untuk mencegah beberapa kesalahan secara sintaks dan semantik. Tidak semua peringatan itu penting, tapi beberapa dapat membantu meningkatkan dalam pembacaan. Gunakan penilai terbaik Anda dan jika ragu, tanyakan saja kepada pengulas!
-- [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) oleh Tim Prettier.js - ini adalah sebuah _formatter_ yang akan mem-_format_ Markdown Anda secara otomatis, sehingga Markdown Anda menggunakan gaya yang konsisten. _Repository_ _Wiki_ memiliki beberapa pengaturan di dalam file `package.json` yang harus digunakan secara otomatis. Pastikan Anda menyalakan pengaturan "Format On Save" di pengaturan _editor_ Anda, sehingga _file_ Markdown Anda akan menjadi ter-_format_ secara otomatis setiap kali Anda menyimpan!
+- [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) oleh David Anson - ini adalah sebuah ekstensi yang memastikan Markdown kamu telah di-_format_ dengan benar. Hal ini untuk mencegah beberapa kesalahan secara sintaks dan semantik. Tidak semua peringatan itu penting, tapi beberapa dapat membantu meningkatkan dalam pembacaan. Gunakan penilai terbaik kamu dan jika ragu, tanyakan saja kepada pengulas!
+- [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) oleh Tim Prettier.js - ini adalah sebuah _formatter_ yang akan mem-_format_ Markdown kamu secara otomatis, sehingga Markdown kamu menggunakan gaya yang konsisten. _Repository_ _Wiki_ memiliki beberapa pengaturan di dalam file `package.json` yang harus digunakan secara otomatis. Pastikan kamu menyalakan pengaturan "Format On Save" di pengaturan _editor_ kamu, sehingga _file_ Markdown kamu akan menjadi ter-_format_ secara otomatis setiap kali kamu menyimpan!
 
 ## Catatan, Tips, dan Konvensi
 
@@ -68,11 +68,11 @@ Jangan gunakan URL absolut untuk tautan antarsitus. Gunakan _relative paths_.
   Untuk digunakan dengan [OnPlayerClickPlayer](../callbacks/OnPlayerClickPlayer)
   ```
 
-`../` artinya "naik satu direktori", sehingga ketika _file_ yang Anda sunting di dalam direktori `functions` dan Anda menghubungkan ke `callbacks`, Anda menggunakan `../` untuk ke `scripting/`, kemudian `callbacks` untuk masuk ke direktori `callbacks`, kemudian nama _file_ _callback_ (tanpa `.md`) yang ingin Anda hubungkan.
+`../` artinya "naik satu direktori", sehingga ketika _file_ yang kamu sunting di dalam direktori `functions` dan kamu menghubungkan ke `callbacks`, kamu menggunakan `../` untuk ke `scripting/`, kemudian `callbacks` untuk masuk ke direktori `callbacks`, kemudian nama _file_ _callback_ (tanpa `.md`) yang ingin kamu hubungkan.
 
 ### Gambar
 
-Gambar-gambar ada di dalam subdirektori `/static/images`. Lalu, ketika Anda ingin menghubungkan gambar dengan `![]()`, Anda cukup menggunakan `/images/` sebagai jalur dasarnya (tidak perlu menambahkan `static`).
+Gambar-gambar ada di dalam subdirektori `/static/images`. Lalu, ketika kamu ingin menghubungkan gambar dengan `![]()`, kamu cukup menggunakan `/images/` sebagai jalur dasarnya (tidak perlu menambahkan `static`).
 
 Jika ragu, bacalah halaman lain yang menggunakan gambar dan salin bagian memuat gambar.
 
@@ -93,7 +93,7 @@ Untuk daftar lengkap yang bisa disertakan di antara `---`, lihat [dokumentasi Do
 
 ### Judul
 
-Jangan membuat heading level 1 (`<h1>`) dengan `#` yang akan di-_generate_ secara otomatis. Judul pertama Anda harus selalu menggunakan `##`
+Jangan membuat heading level 1 (`<h1>`) dengan `#` yang akan di-_generate_ secara otomatis. Judul pertama kamu harus selalu menggunakan `##`
 
 - ❌
 
@@ -160,7 +160,7 @@ Jika tabel memiliki judul, letakkan di bagian atas:
 
 ## Migrasi dari Wiki SA-MP
 
-Hampir seluruh konten dari Wiki SA-MP telah dipindahkan, namun jika Anda menemukan sebuah halaman yang hilang, ini pandungan singkat untuk konversi kontennya menjadi Markdown.
+Hampir seluruh konten dari Wiki SA-MP telah dipindahkan, namun jika kamu menemukan sebuah halaman yang hilang, ini pandungan singkat untuk konversi kontennya menjadi Markdown.
 
 ### Getting the HTML
 
@@ -174,7 +174,7 @@ Hampir seluruh konten dari Wiki SA-MP telah dipindahkan, namun jika Anda menemuk
 
    ![image](images/contributing/f62bb8112543.png)
 
-2. Arahkan ke sudut kiri atas dari halaman utama wiki, di margin kiri atau sudut hingga Anda menemukan `#content`
+2. Arahkan ke sudut kiri atas dari halaman utama wiki, di margin kiri atau sudut hingga kamu menemukan `#content`
 
    ![image](images/contributing/65761ffbc429.png)
 
@@ -186,7 +186,7 @@ Hampir seluruh konten dari Wiki SA-MP telah dipindahkan, namun jika Anda menemuk
 
    ![image](images/contributing/8c7c75cfabad.png)
 
-   Sekarang Anda **hanya** memiliki memiliki kode HTML yang berisi **konten** aktual pada halaman tersebut, hal-hal yang kami minati, dan Anda bisa konversikan menjadi Markdown.
+   Sekarang kamu **hanya** memiliki memiliki kode HTML yang berisi **konten** aktual pada halaman tersebut, hal-hal yang kami minati, dan kamu bisa konversikan menjadi Markdown.
 
 ### Mengkonversi HTML menjadi Markdown
 
@@ -210,10 +210,10 @@ Dan salin hanya elemen `<table>` di:
 
 ### Merapikan
 
-Hasil konversi tidak selalu sempurna, Jadi, Anda diharuskan merapikan beberapa bagian secara manual. Daftar ektensi untuk _formatting_ yang telah disebutkan di atas seharusnya dapat membantu, tapi mungkin Anda tetap membutuhkan meluangkan waktu untuk melakukannya secara manual.
+Hasil konversi tidak selalu sempurna, Jadi, kamu diharuskan merapikan beberapa bagian secara manual. Daftar ektensi untuk _formatting_ yang telah disebutkan di atas seharusnya dapat membantu, tapi mungkin kamu tetap membutuhkan meluangkan waktu untuk melakukannya secara manual.
 
-Jika Anda tidak ada waktu, jangan khawatir. Kirim draf yang belum diselesaikan dan orang lain dapat melanjutkan yang telah Anda kerjakan!
+Jika kamu tidak ada waktu, jangan khawatir. Kirim draf yang belum diselesaikan dan orang lain dapat melanjutkan yang telah kamu kerjakan!
 
 ## Perjanjian Lisensi
 
-Seluruh proyek open.mp memiliki sebuah [Contributor License Agreement](https://cla-assistant.io/openmultiplayer/homepage). Ini pada dasarnya berarti Anda menyetujui kami menggunakan karya Anda, dan meletakannya di bawah lisensi sumber terbuka (_open-source_). Ketika Anda membuka sebuah Pull Request untuk pertama kalinya, bot CLA-Assistant akan mem-posting sebuah tautan tempat Anda bisa menandatangani perjanjian.
+Seluruh proyek open.mp memiliki sebuah [Contributor License Agreement](https://cla-assistant.io/openmultiplayer/homepage). Ini pada dasarnya berarti kamu menyetujui kami menggunakan karya kamu, dan meletakannya di bawah lisensi sumber terbuka (_open-source_). Ketika kamu membuka sebuah Pull Request untuk pertama kalinya, bot CLA-Assistant akan mem-posting sebuah tautan tempat kamu bisa menandatangani perjanjian.
