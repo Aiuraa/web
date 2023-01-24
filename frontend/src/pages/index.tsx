@@ -31,7 +31,7 @@ import Roads from "src/components/icons/Roads";
 const DownloadButton = () => {
   return (
     <Link
-      href="https://github.com/openmultiplayer/server-beta/releases"
+      href="https://github.com/openmultiplayer/open.mp/releases"
       _hover={{ textDecoration: "none" }}
       isExternal
     >
@@ -49,9 +49,9 @@ const DownloadButton = () => {
           outline: "2px solid #695AD3",
           transition: "outline 0.3s",
         }}
-        title="Beta Server has been launched"
+        title="open.mp is released"
       >
-        Download Beta
+        Download open.mp (server)
       </Button>
     </Link>
   );
@@ -100,7 +100,7 @@ const Home = () => {
     {
       heading: "Community driven development",
       bodyText:
-        "Open.mp is fully open source and is actively developed and maintained solely by the community. This helps in transparency and community input.",
+        "Once fully released, the server will be fully open source. For now you can help by contributing to the wiki, Or by testing the beta server software.",
       buttonLink: "https://github.com/openmultiplayer",
       buttonText: "Visit the GitHub repo",
       img: "/images/assets/f2.png",

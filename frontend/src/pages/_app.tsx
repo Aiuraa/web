@@ -35,7 +35,7 @@ const App: NextPage<AppProps> = ({ Component, pageProps, router }) => (
     <DefaultSeo
       title="Open Multiplayer"
       titleTemplate="open.mp | %s"
-      description="An upcoming multiplayer mod for Grand Theft Auto: San Andreas that will be fully backwards compatible with the existing multiplayer mod San Andreas Multiplayer."
+      description="A multiplayer mod for Grand Theft Auto: San Andreas that is fully backwards compatible with San Andreas Multiplayer"
       canonical="https://open.mp"
       twitter={{
         cardType: "summary",
@@ -52,7 +52,7 @@ const App: NextPage<AppProps> = ({ Component, pageProps, router }) => (
         items={[
           { name: "Home", path: "/", exact: true },
           { name: "FAQ", path: "/faq" },
-          { name: "Forums", path: "/discussion" },
+          { name: "Forums", path: "https://forum.open.mp" },
           { name: "Servers", path: "/servers" },
           { name: "Partners", path: "/partners" },
           { name: "Docs", path: "/docs" },
